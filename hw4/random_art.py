@@ -86,7 +86,6 @@ def random_art():
             bluecolor = remap_interval(blue,-1,1,0,255)
             pixel[x,y] = (int(redcolor),int(greencolor),int(bluecolor))    
     im.show()            
-
 random_art()
     
     
